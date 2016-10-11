@@ -1,3 +1,59 @@
+/*FUENTES*/
+@font-face {
+    font-family: 'SceneProBlack';
+    src: url('../fonts/SceneProBlack.eot');
+    src: url('../fonts/SceneProBlack.eot') format('embedded-opentype'),
+         url('../fonts/SceneProBlack.woff2') format('woff2'),
+         url('../fonts/SceneProBlack.woff') format('woff'),
+         url('../fonts/SceneProBlack.ttf') format('truetype'),
+         url('../fonts/SceneProBlack.svg#SceneProBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProMedium';
+    src: url('../fonts/SceneProMedium.eot');
+    src: url('../fonts/SceneProMedium.eot') format('embedded-opentype'),
+         url('../fonts/SceneProMedium.woff2') format('woff2'),
+         url('../fonts/SceneProMedium.woff') format('woff'),
+         url('../fonts/SceneProMedium.ttf') format('truetype'),
+         url('../fonts/SceneProMedium.svg#SceneProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProBold';
+    src: url('../fonts/SceneProBold.eot');
+    src: url('../fonts/SceneProBold.eot') format('embedded-opentype'),
+         url('../fonts/SceneProBold.woff2') format('woff2'),
+         url('../fonts/SceneProBold.woff') format('woff'),
+         url('../fonts/SceneProBold.ttf') format('truetype'),
+         url('../fonts/SceneProBold.svg#SceneProBold') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProRegular';
+    src: url('../fonts/SceneProRegular.eot');
+    src: url('../fonts/SceneProRegular.eot') format('embedded-opentype'),
+         url('../fonts/SceneProRegular.woff2') format('woff2'),
+         url('../fonts/SceneProRegular.woff') format('woff'),
+         url('../fonts/SceneProRegular.ttf') format('truetype'),
+         url('../fonts/SceneProRegular.svg#SceneProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProLight';
+    src: url('../fonts/SceneProLight.eot');
+    src: url('../fonts/SceneProLight.eot') format('embedded-opentype'),
+         url('../fonts/SceneProLight.woff2') format('woff2'),
+         url('../fonts/SceneProLight.woff') format('woff'),
+         url('../fonts/SceneProLight.ttf') format('truetype'),
+         url('../fonts/SceneProLight.svg#SceneProLight') format('svg');
+}
+
+.wrapper-onbike {
+	font-family: 'SceneProRegular';
+}
+/*FUENTES*/
+
 /*Inicio Menu*/
 .menu-onbike {
 	background-color: #ffffff;
@@ -91,12 +147,15 @@ transition: all 200ms ease;
 	text-decoration: none;
 	font-size: 2.2em;
 }
+.iconos {
+	margin-left: 20px;
+}
 .carousel-inside {
 	padding-bottom: 40px;
 }
 .fondo-carousel {
 	height: 600px;
-	background-image: url(../images/dsc_0025.jpg);
+	background-image: url(../images/sagan.jpg);
 	background-size: cover;
 }
 a.link-carousel {
@@ -142,3 +201,32 @@ a.link-carousel {
 .bike-description{
 	background-color: white;
 }
+
+/*FIN BIKE SHOP*/
+
+/*INICIO CATEGORIAS DESTACADAS*/
+.cat-destacadas {
+	background-color: #262626;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.title-cat{
+	font-size: 3em;
+	font-family: 'SceneProBold';
+	line-height: 34px;
+}
+.text-negro {
+	/*background-color: #00ff01;*/
+    color: #000;
+    /*padding-right: 50px;*/
+    /*font-weight: 900;*/
+    font-size: 1.2em;
+}
+.text-negro::after{
+	content:" ";
+	background-color: #00ff01;
+	height: 100px;
+	width: 100px;
+}
+/*FIN CATEGORIAS DESTACADAS*/
