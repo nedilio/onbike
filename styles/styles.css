@@ -169,7 +169,6 @@ a.link-carousel {
     left: 0;
     height: 40px;
     padding: 10px;
-
 }
 .link-barra {
 	width: 15px;
@@ -189,19 +188,30 @@ a.link-carousel {
 	background-image: url(../images/dogma.png);
 	background-repeat: no-repeat;
 	background-position:-10% top;
+	padding-bottom: 30px;
 }
 
 .bike-title {
 	font-size: 3em;
-	line-height: 31px;
+	line-height: 30px;
+	font-family: 'SceneProBlack';
 }
 .bike-subtitle {
 	font-size: 2.5em;
+	font-family: 'SceneProBlack';
+	line-height: 25px;
 }
 .bike-description{
 	background-color: white;
 }
-
+.comprarbici {
+	font-family: 'SceneProBlack';
+	padding-top: 15px;
+	text-transform: uppercase;
+}
+.comprarbici a{
+	color: #00ff01;
+}
 /*FIN BIKE SHOP*/
 
 /*INICIO CATEGORIAS DESTACADAS*/
@@ -213,20 +223,15 @@ a.link-carousel {
 }
 .title-cat{
 	font-size: 3em;
-	font-family: 'SceneProBold';
+	font-family: 'SceneProBlack';
 	line-height: 34px;
 }
 .text-negro {
-	/*background-color: #00ff01;*/
-    color: #000;
-    /*padding-right: 50px;*/
-    /*font-weight: 900;*/
-    font-size: 1.2em;
-}
-.text-negro::after{
-	content:" ";
 	background-color: #00ff01;
-	height: 100px;
-	width: 100px;
+    color: #000;
+    padding: 0;
+    padding-right: 50px;
+    font-size: 1.2em;
+    display: inline-block;
 }
 /*FIN CATEGORIAS DESTACADAS*/
