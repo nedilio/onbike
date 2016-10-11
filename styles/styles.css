@@ -234,4 +234,38 @@ a.link-carousel {
     font-size: 1.2em;
     display: inline-block;
 }
+.categoria-left{
+	padding-top: 200px;
+	padding-bottom: 170px;
+}
+.categoria-right {
+	padding-top: 100px;
+}
+.img-cat{
+    position: absolute;
+    z-index: 99;
+    left: -50px;
+    top: -100px;
+}
+.img-cat-green {
+    display: block;
+    background-color: #00ff01;
+    width: 250px;
+    height: 250px;
+    transform: skewX(-20deg);
+    position: absolute;
+    top: -25px;
+    left: 5px;
+}
+.img-cat-white {
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    transform: skewX(-20deg);
+    position: absolute;
+    top: -50px;
+    left: -10px;
+    z-index: 98;
+}
 /*FIN CATEGORIAS DESTACADAS*/
