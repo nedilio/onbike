@@ -1,0 +1,64 @@
+/*Inicio Menu*/
+.menu-onbike {
+	background-color: #ffffff;
+    /*color: #000000;*/
+    padding: 25px;
+    border: none;
+}
+.menu-onbike .navbar-nav >li>a {
+	color: black;
+	font-weight: 700;
+}
+.logo {
+	    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*Fin Menu*/
+
+/*INICIO CAROUSEL*/
+.wrapper-carousel{
+	width: 100%;
+}
+.control {
+    position: absolute;
+    bottom: 10px;
+    background-color: #111111;
+    color: #00ff01;
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    text-align: center;	
+}
+.right {
+	right: 5%;
+}
+.left{
+	left: 5%;
+}
+.caption-slider {
+    background-color: #111111;
+    width: 25%;
+    bottom: 0;
+    left: 10%;
+    padding: 10px;
+}
+.title-carousel {
+    font-weight: 700;
+    width: 64%;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.barra-verde {
+    background-color: #00ff01;
+    height: 20px;
+    width: 100%;
+    /* margin-right: 9%; */
+    position: relative;
+    right: 25%;
+    margin-bottom: 10px;
+}
+/*FINAL CAROUSEL*/
