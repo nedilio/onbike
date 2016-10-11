@@ -39,9 +39,9 @@
 .caption-slider {
     background-color: #111111;
     width: 25%;
-    bottom: 0;
+    bottom: -25px;
     left: 10%;
-    padding: 10px;
+    padding: 20px;
 }
 .title-carousel {
     font-weight: 700;
@@ -60,5 +60,42 @@
     position: relative;
     right: 25%;
     margin-bottom: 10px;
+}
+.control-arrow {
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+.wrapper-iconos {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    color: white;
+    font-size: 1.7em;
+}
+.wrapper-iconos a {
+	color: white;
+}
+.carousel-inner {
+	overflow: visible;
+}
+a.link-carousel {
+    position: absolute;
+    bottom: 2px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    left: 0;
+}
+.link-barra {
+	width: 15px;
+	height: 25px;
+	background-color: #00ff01;
+	position: absolute;bottom: 0;
+	left: 0;
 }
 /*FINAL CAROUSEL*/
