@@ -19,6 +19,7 @@
 /*INICIO CAROUSEL*/
 .wrapper-carousel{
 	width: 100%;
+	margin-bottom: 50px;
 }
 .control {
     position: absolute;
@@ -73,10 +74,21 @@
     right: 5%;
     bottom: 20%;
     color: white;
-    font-size: 1.7em;
+    
 }
 .wrapper-iconos a {
 	color: white;
+	font-size: 1.7em;
+	    -webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-ms-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+}
+.wrapper-iconos a:hover, .wrapper-iconos a:focus  {
+	color: white;
+	text-decoration: none;
+	font-size: 2.2em;
 }
 .carousel-inner {
 	overflow: visible;
@@ -84,12 +96,13 @@
 a.link-carousel {
     position: absolute;
     bottom: 2px;
-    color: white;
+    color: #00ff01;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
     width: 100%;
     left: 0;
+
 }
 .link-barra {
 	width: 15px;
@@ -99,3 +112,17 @@ a.link-carousel {
 	left: 0;
 }
 /*FINAL CAROUSEL*/
+
+/*BikeShop*/
+.bike-shop{
+	background-image: url(../images/dogma.png);
+	background-repeat: no-repeat;
+}
+
+.bike-title {
+	font-size: 3em;
+	line-height: 31px;
+}
+.bike-subtitle {
+	font-size: 2.5em;
+}
