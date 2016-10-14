@@ -357,3 +357,13 @@ margin-top: -5px;
 	color: #fff;
 }
 /*FIN FOOTER*/
+
+/*MENU ABAJO*/
+.menu-bottom {
+	background-color: #262626;
+	margin:0;
+}
+.menu-bottom .navbar-nav >li>a {
+    color: white;
+    font-weight: 700;
+}
