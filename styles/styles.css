@@ -285,7 +285,6 @@ a {
 	margin-top: -20px;
 	position: relative;
 }
-
 .entrena-title {
 	color: #fff;
 	font-family: 'SceneProBlack';
@@ -301,7 +300,7 @@ a {
 	font-family: 'SceneProRegular';
 }
 .entrena-title h1::before {
-    width: 100%;
+    width: 110%;
     height: 10px;
     background-color: #00ff01;
     display: inline-block;
@@ -312,3 +311,25 @@ a {
     z-index: -1;
 }
 /*FIN ENTRENA CON NOSOTROS*/
+
+/*BLOG*/
+.blog {
+	padding: 30px;
+}
+.fecha {
+	font-family: 'SceneProBlack';
+}
+.fecha::after {
+    height: 4px;
+    width: 67%;
+    background-color: #00ff01;
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    margin-top: 9px;
+    right: 15px;
+}
+.titulo-blog {
+	font-family: 'SceneProBlack'
+}
+/*FIN BLOG*/
