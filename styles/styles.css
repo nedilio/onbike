@@ -225,6 +225,7 @@ a.link-carousel {
 	font-size: 3em;
 	font-family: 'SceneProBlack';
 	line-height: 34px;
+	margin-bottom: 20px;
 }
 .text-negro {
 	background-color: #00ff01;
@@ -250,7 +251,7 @@ a.link-carousel {
 .img-cat-green {
     display: block;
     background-color: #00ff01;
-    width: 250px;
+    width: 200px;
     height: 250px;
     transform: skewX(-20deg);
     position: absolute;
@@ -260,7 +261,7 @@ a.link-carousel {
 .img-cat-white {
     display: block;
     background-color: white;
-    width: 250px;
+    width: 200px;
     height: 250px;
     transform: skewX(-20deg);
     position: absolute;
@@ -268,4 +269,41 @@ a.link-carousel {
     left: -10px;
     z-index: 98;
 }
+
+a {
+	color: #00ff01;
+    text-transform: uppercase;
+    font-family: 'SceneProBlack';
+}
 /*FIN CATEGORIAS DESTACADAS*/
+
+/*ENTRENA CON NOSOTROS*/
+.entrena {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%),url(../images/groupride.jpg);
+	background-size: cover;
+	height: 700px;
+	margin-top: -20px;
+	position: relative;
+}
+
+.entrena-title {
+	color: #fff;
+	font-family: 'SceneProBlack';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.entrena-title h1 {
+	font-size: 3.5em;
+}
+.entrena-title p {
+	font-family: 'SceneProRegular';
+}
+.entrena-title h1::before {
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	display: inline-block;
+}
+/*FIN ENTRENA CON NOSOTROS*/
