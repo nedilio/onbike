@@ -293,22 +293,25 @@ a {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-.entrena-title h1 {
-	font-size: 3.5em;
-}
 .entrena-title p {
 	font-family: 'SceneProRegular';
 }
+.entrena-title h1 {
+font-size: 3.5em;
+margin: 0;
+position: relative;
+}
 .entrena-title h1::before {
-    width: 110%;
-    height: 10px;
-    background-color: #00ff01;
-    display: inline-block;
-    content: " ";
-    position: absolute;
-    left: -5%;
-    margin-top: 22px;
-    z-index: -1;
+width: 110%;
+height: 10px;
+background-color: #00ff01;
+content: " ";
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: -1;
+margin-left: -55%;
+margin-top: -5px;
 }
 /*FIN ENTRENA CON NOSOTROS*/
 
@@ -333,3 +336,24 @@ a {
 	font-family: 'SceneProBlack'
 }
 /*FIN BLOG*/
+
+/*SECCION FOOTER*/
+.footer {
+	background-color: #000;
+	padding: 30px;
+	/*font-family: 'SceneProMedium';*/
+	color: #fff;
+}
+
+.text-footer{
+	color: #fff;
+	font-size: 1.2em;
+	font-family: 'SceneProBlack';
+}
+.iconos-footer{
+	font-size: 2em;
+}
+.iconos-footer a {
+	color: #fff;
+}
+/*FIN FOOTER*/
