@@ -251,6 +251,9 @@
 	</div>
 </section>
 
+<section class="instagramfeed">
+	<div id="instafeed"></div>
+</section>
 <footer class="footer">
 	<div class="container">
 		<div class="row">
@@ -290,5 +293,15 @@
 </div>
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/instafeed.js/instafeed.js"></script>
+	
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '9a458fd73e7f46aa80a4de4191c5a568'
+    });
+    feed.run();
+</script>
 </body>
 </html>

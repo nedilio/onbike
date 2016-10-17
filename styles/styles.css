@@ -336,7 +336,11 @@ margin-top: -5px;
 	font-family: 'SceneProBlack'
 }
 /*FIN BLOG*/
-
+/*INSTAGRAM FEED*/
+.instagramfeed {
+	padding: 30px;
+}
+/*FIN INSTAGRAM FEED*/
 /*SECCION FOOTER*/
 .footer {
 	background-color: #000;
